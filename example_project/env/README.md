@@ -4,8 +4,10 @@ Each tool or workflow component has its own Conda environment to manage software
 
 Activate the required environment before running the corresponding workflow step:
 
-conda activate /path/to/project/envs/qc
-conda activate /path/to/project/envs/kneaddata
-conda activate /path/to/project/envs/metaphlan4
+`conda activate /path/to/project/envs/qc`
+
+`conda activate /path/to/project/envs/kneaddata`
+
+`conda activate /path/to/project/envs/metaphlan4`
 
 Note: These are separate Conda environments. You only need to activate the environment required for the tool you are running.
