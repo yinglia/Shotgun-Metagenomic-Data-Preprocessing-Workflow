@@ -1,0 +1,12 @@
+# ============================================================
+# Install bioinformatics quality control tools FastQC
+# ============================================================
+
+# 1. Create Conda environment
+# ------------------------------------------------------------
+# Install Kneaddata
+
+conda create -p /athena/linglab/scratch/yil4013/ICI/envs/kneaddata -c conda-forge -c bioconda kneaddata
+
+
+# 2. Activate environment
