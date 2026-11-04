@@ -1,0 +1,15 @@
+# Commend
+
+conda create -p /athena/linglab/scratch/yil4013/ICI/envs/qc -c conda-forge -c bioconda fastqc multiqc fastp bowtie2 samtools seqkit
+
+# Success
+
+To activate this environment, use                                             
+ 
+ $ conda activate /athena/linglab/scratch/yil4013/ICI/envs/qc              
+                                                                               
+To deactivate an active environment, use                                      
+  $ conda deactivate 
+
+# Verify
+fastqc --version multiqc --version fastp --version bowtie2 --version seqkit version
