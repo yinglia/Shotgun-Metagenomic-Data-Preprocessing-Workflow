@@ -5,12 +5,16 @@ The following directory structure illustrates how a shotgun metagenomic data pre
 ```text
 project/
 ├── scripts/
-│   ├── download_wgs.sh
 │   ├── run_fastqc.sh
 │   ├── run_kneaddata.sh
 │   ├── run_metaphlan.sh
 │   └── run_metaphlan_with_reads.sh
 │
+├── helper/
+│   ├── download_kneaddata_db.sh
+│   ├── download_metaphlan_db.sh
+│   └── download_wgs.sh
+│   
 ├── rawdata/
 │   └── wgs/
 │
