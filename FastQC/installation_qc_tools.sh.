@@ -38,4 +38,4 @@ echo "All installation checks completed."
 # 4. Deactivate environment when finished
 # ------------------------------------------------------------
 # Run the following command manually when you are done:
-# conda deactivate
+conda deactivate
