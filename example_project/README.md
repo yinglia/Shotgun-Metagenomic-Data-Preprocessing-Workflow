@@ -3,7 +3,7 @@
 The following directory structure illustrates how a shotgun metagenomic data preprocessing project can be organized on an HPC cluster.
 
 ```text
-example_project/
+project/
 ├── scripts/
 │   ├── download_wgs.sh
 │   ├── run_fastqc.sh
